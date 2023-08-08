@@ -1,11 +1,13 @@
 {
-    "version": "2.0",
-    "logging": {
-        "applicationInsights": {
-            "samplingSettings": {
-                "isEnabled": true,
-                "excludedTypes": "Request"
-            }
-        }
+  "EndPointUri": "https://delivery-order-db.documents.azure.com:443/",
+  "PrimaryKey": "CW6Nsy3IZzLGw5ShyGA6YW8LFPO5wKfjQegtMNTdQGlD6qtuR26ZWoHo7CezEGZsrjCFcuosvtuCACDbZYeGUQ==",
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
     }
+  }
 }
