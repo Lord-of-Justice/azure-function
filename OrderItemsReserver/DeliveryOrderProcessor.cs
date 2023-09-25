@@ -11,14 +11,14 @@ using Microsoft.Azure.Cosmos;
 
 namespace OrderItemsReserver
 {
-    public static class OrderItemsReserver
+    public static class DeliveryOrderProcessor
     {
         private static readonly string EndpointUri = Environment.GetEnvironmentVariable("EndPointUri");
         private static readonly string PrimaryKey = Environment.GetEnvironmentVariable("PrimaryKey");
         private static readonly string databaseId = "orders";
         private static readonly string containerId = "Items";
 
-        [FunctionName("OrderItemsReserver")]
+        [FunctionName("DeliveryOrderProcessor")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
             ILogger log)
