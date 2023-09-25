@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /OrderItemsReserver/Properties/ServiceDependencies/DeliveryOrderFunc - Zip Deploy
+/OrderItemsReserver/Properties/ServiceDependencies/delivery-order-processor-cfa - Zip Deploy
+/OrderItemReserver.ServiceBusTrigger/Properties/ServiceDependencies
